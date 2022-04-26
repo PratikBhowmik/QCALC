@@ -9,5 +9,4 @@ class QcalcApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

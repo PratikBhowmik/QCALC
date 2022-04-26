@@ -24,7 +24,7 @@ public class StandardCalculator {
     public void multiply (int num1 , int num2) {
         result = num1*num2;
     }
-    public void division (int num1 , int num2) {
+    public void divide (int num1 , int num2) {
         result = num1/num2;
     }
     public void clearResult(){
