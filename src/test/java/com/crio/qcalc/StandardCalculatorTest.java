@@ -23,7 +23,7 @@ public class StandardCalculatorTest {
     @Test
     @DisplayName("Test Substraction of Two Integers")
     void testSubtractionOperation(){
-        standardCalculator.substract(4 , 2);
+        standardCalculator.subtract(4 , 2);
         int actualResult = standardCalculator.getResult();
         Assertions.assertEquals(2, actualResult);
     }

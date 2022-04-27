@@ -1,9 +1,9 @@
 package com.crio.qcalc;
 
 //import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class QcalcApplication {
 
 	public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class QcalcApplication {
 		StandardCalculator calc = new StandardCalculator();
 		calc.add(1, 1);
 		System.out.println(calc.getResult());
-		calc.substract(5,2);
+		calc.subtract(5,2);
 		System.out.println(calc.getResult());
 		calc.multiply(4,2);
 		System.out.println(calc.getResult());
