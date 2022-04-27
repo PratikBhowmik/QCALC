@@ -1,7 +1,7 @@
 package com.crio.qcalc;
 
 //import org.springframework.boot.SpringApplication;
-//import org.springframework.boot.autoconfigure.SpringBootApplication;
+//git pull ME_QCALC_V2_MODULE_OOP_STUB master --allow-unrelated-histories --no-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 //@SpringBootApplication
 public class QcalcApplication {
