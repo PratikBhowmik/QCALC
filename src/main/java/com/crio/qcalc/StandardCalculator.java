@@ -12,6 +12,8 @@ public class StandardCalculator {
         return result;
     }
     public void setResult(int value){
+        if(value != 0)
+        return;
         this.result = value;
     }
 
@@ -31,6 +33,6 @@ public class StandardCalculator {
         result = 0;
     }
     public void printResult(){
-        System.out.println("The result is "+result);
+        System.out.println("The result is :"+result);
     }
 }

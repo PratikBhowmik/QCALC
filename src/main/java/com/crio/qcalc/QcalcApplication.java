@@ -11,14 +11,14 @@ public class QcalcApplication {
 		System.out.println("Hello world");
 		StandardCalculator calc = new StandardCalculator();
 		calc.add(1, 1);
-		calc.substract(4,2);
+		System.out.println(calc.getResult());
+		calc.substract(5,2);
+		System.out.println(calc.getResult());
 		calc.multiply(4,2);
-		calc.divide(8,4);
+		System.out.println(calc.getResult());
+		calc.divide(16,4);
+		System.out.println(calc.getResult());
 		calc.clearResult();
 		calc.printResult();
-
-		System.out.println(calc.getResult());
-
 	}
-
 }
