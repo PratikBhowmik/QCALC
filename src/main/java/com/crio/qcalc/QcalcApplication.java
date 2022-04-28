@@ -10,6 +10,11 @@ public class QcalcApplication {
 		//SpringApplication.run(QcalcApplication.class, args);
 		System.out.println("Hello world");
 		StandardCalculator calc = new StandardCalculator();
+		LogicCalculator calcintern = new LogicCalculator();
+		calcintern.OR(8,6);
+		calcintern.printResult();
+		calcintern.AND(8,6);
+		calcintern.printResult();
 		calc.add(1, 1);
 		calc.printResult();
 		calc.subtract(5,2);
